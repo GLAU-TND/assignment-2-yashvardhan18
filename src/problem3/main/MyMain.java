@@ -14,11 +14,11 @@ import problem5.student.Student;
 public class MyMain {
     public static void main(String[] args) {
         MyPriorityQueue obj = new MyPriorityQueue();
-        obj.entry(new Node(new Student(15, "wdad")));
-        obj.entry(new Node(new Student(500, "wdad")));
-        obj.entry(new Node(new Student(50, "wdad")));
-        obj.entry(new Node(new Student(11, "wdad")));
-        obj.entry(new Node(new Student(55, "wdad")));
+        obj.entry(new Node(new Student(56, "Yash")));
+        obj.entry(new Node(new Student(45, "Rahul")));
+        obj.entry(new Node(new Student(1, "Arjun")));
+        obj.entry(new Node(new Student(54, "Taran")));
+        obj.entry(new Node(new Student(12, "Anushka")));
         obj.printQ();
     }
 }
