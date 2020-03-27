@@ -19,6 +19,7 @@ public class MyMain {
         int i = sc.nextInt();
         while (i > 0) {
             ob.add(sc.nextInt());
+            i--;
         }
     }
 }
