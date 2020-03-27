@@ -21,8 +21,12 @@ public class MyMain {
         int i = sc.nextInt();
         while (i > 0) {
             obj.add(sc.nextInt());
+            i--;
 
         }
+        obj.preOrder(obj.root);
+        System.out.println();
+        obj.postOrder(obj.root);
 
     }
 }
