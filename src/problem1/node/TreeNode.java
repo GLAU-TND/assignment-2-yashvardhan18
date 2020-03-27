@@ -7,4 +7,36 @@
 package problem1.node;
 
 public class TreeNode {
+    private int tree;
+    private TreeNode left;
+    private TreeNode right;
+
+    public TreeNode(int data) {
+        this.tree = data;
+        this.left = this.right = null;
+    }
+
+    public int getTree() {
+        return tree;
+    }
+
+    public void setTree(int tree) {
+        this.tree = tree;
+    }
+
+    public TreeNode getLeft() {
+        return left;
+    }
+
+    public void setLeft(TreeNode left) {
+        this.left = left;
+    }
+
+    public TreeNode getRight() {
+        return right;
+    }
+
+    public void setRight(TreeNode right) {
+        this.right = right;
+    }
 }
